@@ -1,0 +1,19 @@
+<script>
+    class sumof
+    {
+        sum()
+        {
+    let n=parseInt(prompt("enter number : "))
+    let sum=0
+    while(n>0)
+    {
+       let rem=n%10
+        sum=sum+rem
+        n=parseInt(n/10)
+    }
+    document.write("sum of digit : "+sum)
+}
+}
+let obj=new sumof()
+obj.sum()
+</script>

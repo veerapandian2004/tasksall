@@ -1,0 +1,18 @@
+<script>
+  var arr = [12,2, 11, 89, 44, 90];
+  let square=[];
+  
+  for (var i = 0; i < arr.length; i++) {
+    var n = arr[i];
+    var c = Math.pow(n,2);
+    document.write("Square root of " + n + " is: " + c + "<br>");
+    square.push(c);
+  
+  }
+  let d=square.filter(p=>(p<50))
+
+  document.write("less than 50 :" +d);
+  let red=n.reduce((sum,i)=>sum+i,0);
+  document.write("sum of array : "+red);
+
+</script>

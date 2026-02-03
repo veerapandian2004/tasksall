@@ -1,0 +1,22 @@
+<script>
+    n=parseInt(prompt(" enter number : "))
+    let rev=0;
+    let num=n
+    for(let i=1;i<=n;i++)
+{
+    while(n>0)
+    {
+        rem=n%10
+        rev=rev*10+rem
+        n=parseInt(n/10)
+    }
+    if(num==rev)
+    {
+        document.write("palindrome : "+num)
+    }
+    else
+    {
+        document.write("not palindrome :"+num)
+    }
+}
+</script>

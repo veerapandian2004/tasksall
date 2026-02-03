@@ -1,0 +1,20 @@
+<script>
+    let n=parseInt(prompt(" enter number : "))
+    let num=n
+    let sum=0
+    for(let i=1;i<n;i++)
+{
+    if(n%i==0)
+    {
+        sum=sum+i;
+    }
+}
+if(num==sum)
+{
+    document.write("perfect number : "+num)
+}
+else
+{
+    document.write("not perfect number : "+num)
+}
+</script>
